@@ -1,6 +1,6 @@
 {
   "name": "tagpro-bot-talk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Efficiently communicate with other bots in TagPro.",
   "main": "dist/messenger.js",
   "scripts": {
@@ -13,6 +13,10 @@
   ],
   "author": "Chris Hunt <chrahunt@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrahunt/tagpro-bot-talk.git"
+  },
   "devDependencies": {
     "assign": "^0.1.7",
     "browserify": "^10.2.4",

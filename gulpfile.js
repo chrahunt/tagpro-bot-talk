@@ -23,7 +23,7 @@ function bundle(dest, debug) {
   }).bundle()
     .pipe(source(src.replace(/^lib\//, '')))
     .pipe(derequire())
-    .pipe(gulp.dest(dirs.dev));
+    .pipe(gulp.dest(dest));
 }
 
 gulp.task('build-dev', function() {
@@ -34,7 +34,7 @@ gulp.task('build-prod', function() {
   return bundle(dirs.release);
 });
 
-gulp.task('watch-dev', function() {
+gulp.task('watch', function() {
   var opts = assign({}, watchify.args, {
     entries: src,
     standalone: "BotMessenger",
