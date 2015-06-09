@@ -46,7 +46,7 @@ Messages passed to the listener function are an object with the following proper
 * `player` {integer} the id of the player that sent the message.
 * `data` {*} the data associated with the event, or `null` if no data was passed.
 
-`BotMessenger` inherits from [`EventEmitter`](https://nodejs.org/api/events.html#events_class_events_eventemitter), so check out that documentation for additional methods and details (`removeListener` and `once` may be helpful). The only deviation is in the exception-handling case mentioned below.
+`BotMessenger` inherits from [`EventEmitter`](https://nodejs.org/api/events.html#events_class_events_eventemitter), so check out that documentation for additional methods and details (`removeListener` and `once` may be helpful). The only deviation is in the exception-handling case mentioned above.
 
 ## Development
 
