@@ -1,6 +1,6 @@
 {
   "name": "tagpro-bot-talk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Efficiently communicate with other bots in TagPro.",
   "main": "dist/messenger.js",
   "scripts": {
